@@ -1,0 +1,59 @@
+{
+  "title": ":pushpin: Ally Rules",
+  "color": "#0099ff",
+  "description": "This is a guide to avoid conflicts. If there is any doubt or suggestion contact @Wolfyllo#0992 or @Faby#9535 we are always OPEN to hear them.",
+  "url": "#",
+  "thumbnail": "https://cdn.discordapp.com/icons/846849850480918608/95379abcde5bbe85a8269cc9a92d6036.png",
+  "fields": [
+    {
+      "name": "1. PK an ally member",
+      "value": "1st 5 days kick, ban discord/ts everything\n2nd full kick",
+      "inline": false
+    },
+    {
+      "name": "Friendly clans(ally rules apply):",
+      "value": "- Scandal",
+      "inline": false
+    },
+    {
+      "name": "Friendly clans at Subclass/Nobless RB:",
+      "value": "- Torment\n- Insomnia\n- Phoenix\n\n- Threats or offensive texting\n- Shitbuffing\n- Stealing drops\n- Stun\nIs treated same as pk and penalty will be applied",
+      "inline": false
+    },
+    {
+      "name": "2. Insult and offensive behavior",
+      "value": "Verbal warning and if you keep it will result in kick discord and clan\nExamples of insults:\n- Monkey gifs or jokes\n- Nigga or N word related\n- LGBT + insults",
+      "inline": false
+    },
+    {
+      "name": "3. To save the leveling spot there must be ALWAYS someone there",
+      "value": "If you arrive and there is no one (logout, flu, whatever) spot is FREE\nAdvice is that If you want to save spot, exp with someone or if you are relogging for frenzy have a camera there. AFK camera does not save a spot\n-If someone is stealing your spot and you have proof = kick",
+      "inline": false
+    },
+    {
+      "name": "4. Field Raidbosses",
+      "value": "Whoever arrives first with at least 1destro + sws or bd + 1buffer gets the raid, you can always share drops between partys if agreed\n-If a party is trying to steal the boss from you and you have proof = kick",
+      "inline": false
+    },
+    {
+      "name": "5. Mandatory assistance",
+      "value": "Any kind of epic event or to subclass raid boss/barakiel when someone need it in ally\n- If you get reported with screenshot of video farming during a event your cp will be penalized",
+      "inline": false
+    },
+    {
+      "name": "6. Party Leader in a EVENT you are responsible of making sure:",
+      "value": "- all pt members are in TS and active\n- there is an MA (Main Assist)\n- you call 1st/2nd/3rd single ress\n- your members knows who to spell force",
+      "inline": false
+    }
+  ],
+  "field": {
+    "name": "7. FOIs and DRIVERS",
+    "value": "-Notify ALLY if you got DEBUFFED (SILENCE/MEDUSA) or INTERRUPTED (SPECIFY if you have or not STILL FOI so commander doesnt looks like stupid calling for info and can use your foi in case it wasnt interrupted!)",
+    "inline": false
+  },
+  "image": "https://cdn.discordapp.com/icons/846849850480918608/95379abcde5bbe85a8269cc9a92d6036.png",
+  "footer": {
+    "text": "Wolfyllo. Faby",
+    "image": "https://cdn.discordapp.com/icons/846849850480918608/95379abcde5bbe85a8269cc9a92d6036.png"
+  }
+}

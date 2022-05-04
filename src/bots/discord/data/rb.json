@@ -1,0 +1,106 @@
+[
+  {
+    "id": "antharas",
+    "name": "Antharas",
+    "respawn": 192,
+    "window": 8,
+    "channel": "antharas",
+    "chance": 100
+  },
+  {
+    "id": "baium",
+    "name": "Baium",
+    "respawn": 120,
+    "window": 8,
+    "channel": "baium",
+    "chance": 100
+  },
+  {
+    "id": "barakiel",
+    "name": "Barakiel",
+    "respawn": 12,
+    "window": 24,
+    "channel": "barakiel",
+    "chance": 0
+  },
+  {
+    "id": "cabrio",
+    "name": "Cabrio",
+    "respawn": 12,
+    "window": 24,
+    "channel": "cabrio",
+    "chance": 0
+  },
+  {
+    "id": "frintezza",
+    "name": "Frintezza",
+    "respawn": 48,
+    "window": 2,
+    "channel": "tezza",
+    "chance": 100
+  },
+  {
+    "id": "golkonda",
+    "name": "Golkonda",
+    "respawn": 12,
+    "window": 24,
+    "channel": "golkonda",
+    "chance": 0
+  },
+  {
+    "id": "hallate",
+    "name": "Hallate",
+    "respawn": 12,
+    "window": 24,
+    "channel": "hallate",
+    "chance": 0
+  },
+  {
+    "id": "kernon",
+    "name": "Kernon",
+    "respawn": 12,
+    "window": 24,
+    "channel": "kernon",
+    "chance": 0
+  },
+  {
+    "id": "mos",
+    "name": "Varka's Commander Mos",
+    "respawn": 12,
+    "window": 24,
+    "channel": "mos-shadith",
+    "chance": 0
+  },
+  {
+    "id": "qa",
+    "name": "Queen Ant",
+    "respawn": 24,
+    "window": 6,
+    "channel": "qa",
+    "chance": 30
+  },
+  {
+    "id": "shadith",
+    "name": "Varka's Hero Shadith",
+    "respawn": 12,
+    "window": 24,
+    "channel": "mos-shadith",
+    "chance": 0
+  },
+  {
+    "id": "valakas",
+    "name": "Valakas",
+    "respawn": 264,
+    "window": 0,
+    "channel": "valakas",
+    "chance": 100
+  },
+  {
+    "id": "zaken",
+    "name": "Zaken",
+    "respawn": 40,
+    "window": 8,
+    "channel": "zaken",
+    "chance": 100
+  }
+]

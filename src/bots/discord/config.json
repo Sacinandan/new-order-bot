@@ -1,0 +1,21 @@
+{
+  "timeOfDeathTitle": "tod",
+  "timeOfDeathDescription": "Display info about Raid Boss time of death and respawn",
+  "raidBossNameOptionTitle": "name",
+  "raidBossNameOptionDescription": "Name of the Raid Boss",
+  "timeOfDeathAllianceOptionTitle": "alliance",
+  "timeOfDeathAllianceOptionDescription": "Who killed the Raid Boss",
+  "timeOfDeathMinutesOptionTitle": "minutes",
+  "timeOfDeathMinutesOptionDescription": "How many minutes before the Raid Boss has been killed",
+  "timeOfDeathDropOptionTitle": "drop",
+  "timeOfDeathDropOptionDescription": "Epic item has been dropped by the Raid Boss",
+  "rulesTitle": "rules",
+  "rulesDescription": "Post terms and rules of community for confirmation",
+  "adminRole": "Moderator",
+  "newUserRole": "Newcomer",
+  "assignedRulesUserRole": "Newbie",
+  "welcomeTitle": "welcome",
+  "welcomeDescription": "Post welcome message",
+  "respawnTitle": "respawn",
+  "respawnDescription": "Date and time of Raid Bosses respawn"
+}

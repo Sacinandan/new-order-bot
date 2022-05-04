@@ -1,0 +1,31 @@
+//  prisma migrate dev --name init
+
+generator client {
+  provider              = "prisma-client-js"
+}
+
+datasource db {
+  provider              = "postgresql"
+  url                   = env("DATABASE_URL")
+  shadowDatabaseUrl     = env("SHADOW_DATABASE_URL")
+}
+
+model RaidBosses {
+  id            String    @id
+  name          String    @db.VarChar(50) @unique
+  respawnStart  DateTime  @default(now())
+  respawnEnd    DateTime  @default(now())
+}
+
+model Users {
+  id                    String    @id @default(uuid())
+  discordUserId         String?   @unique
+  discordUsername       String?   @db.VarChar(50) @unique
+  discordChannelId      String?   @db.VarChar(50)
+  telegramUserId        Int?      @unique
+  telegramUsername      String?   @db.VarChar(50) @unique
+  telegramChannelId     Int?
+  accessToken           String?   @db.VarChar(255) @unique
+  refreshToken          String?   @db.VarChar(255) @unique
+  subscription          Boolean?  @default(false)
+}

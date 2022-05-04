@@ -1,0 +1,16 @@
+build:
+  docker:
+    web: Dockerfile
+  config:
+    NODE_ENV: production
+    CLIENT_ID: changeme
+    TOKEN: changeme
+    GUILD_ID: changeme
+    DATABASE_URL: postgres://changeme
+    SHADOW_DATABASE_URL: postgres://changeme
+    TELEGRAM_BOT_TOKEN: changeme
+    TELEGRAM_BOT_TITLE: changeme
+    URL: https://changeme.herokuapp.com
+    NTBA_FIX_319: 1
+run:
+  web: NODE_ENV=production CLIENT_ID=changeme TOKEN=changeme GUILD_ID=changeme DATABASE_URL=postgres://changeme SHADOW_DATABASE_URL=postgres://changeme TELEGRAM_BOT_TOKEN=changeme TELEGRAM_BOT_TITLE=changeme URL=https://changeme.herokuapp.com NTBA_FIX_319=1 node index.js

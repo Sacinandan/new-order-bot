@@ -1,0 +1,10 @@
+-- AlterTable
+ALTER TABLE "Users" ALTER COLUMN "discordUserId" DROP NOT NULL,
+ALTER COLUMN "discordUsername" DROP NOT NULL,
+ALTER COLUMN "discordChannelId" DROP NOT NULL,
+ALTER COLUMN "telegramUserId" DROP NOT NULL,
+ALTER COLUMN "telegramUsername" DROP NOT NULL,
+ALTER COLUMN "telegramChannelId" DROP NOT NULL,
+ALTER COLUMN "accessToken" DROP NOT NULL,
+ALTER COLUMN "refreshToken" DROP NOT NULL,
+ALTER COLUMN "subscription" DROP NOT NULL;

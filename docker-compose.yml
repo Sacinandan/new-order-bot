@@ -1,0 +1,17 @@
+version: '3.9'
+services:
+  bot:
+    container_name: ally-organizer
+    restart: always
+    build: .
+    environment:
+      - NODE_ENV=production
+      - CLIENT_ID=changeme
+      - TOKEN=changeme
+      - GUILD_ID=changeme
+      - DATABASE_URL=postgres://changeme
+      - SHADOW_DATABASE_URL=postgres://changeme
+      - TELEGRAM_BOT_TOKEN=changeme
+      - TELEGRAM_BOT_TITLE=changeme
+      - URL=https://changeme.herokuapp.com
+      - NTBA_FIX_319=1
