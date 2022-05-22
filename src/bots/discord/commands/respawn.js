@@ -16,7 +16,7 @@ module.exports = {
       config.raidBossNameOptionTitle,
       config.raidBossNameOptionDescription,
       false)),
-  async execute(interaction, client) {
+  async execute (interaction, client) {
     try {
       await interaction.deferReply({ ephemeral: true })
       const name = interaction.options.getString(config.raidBossNameOptionTitle)
@@ -67,17 +67,20 @@ module.exports = {
               .setStyle('LINK')
           )
 
-        await client.users.cache.get(interaction.user.id).send({
-          embeds: [ embedMessage ],
-          components: [ row ]
-        })
+        await client.users.cache
+                    .get(interaction.user.id)
+                    .send({
+                      embeds: [embedMessage],
+                      components: [row]
+                    })
 
         await interaction.editReply('Check your private messages')
       } else {
         const result = await getRespawnList()
         await interaction.editReply(result)
       }
-    } catch (error) {
+    }
+    catch (error) {
       console.error(error)
     }
   }

@@ -1,4 +1,4 @@
-# New Order Alliance Organizer ![version](https://img.shields.io/badge/version-1.7.0-blue.svg)
+# New Order Alliance Organizer ![version](https://img.shields.io/badge/version-1.8.0-blue.svg)
 
 ## Discord bot for Lineage II community
 
@@ -21,7 +21,7 @@ L2Reborn x1 Interlude. New Order alliance
 4. Run command `npx prisma generate`
 
 5. Run command `npx prisma migrate dev --name init`
- 
+
 6. Run command `npm run dev`
 
 ### Build and run the bot in production mode:

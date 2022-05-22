@@ -8,14 +8,15 @@ module.exports = {
   data: new SlashCommandBuilder()
     .setName(config.rulesTitle)
     .setDescription(config.rulesDescription),
-  async execute(interaction) {
+  async execute (interaction) {
     const user = await interaction.member.fetch()
 
     if (!user.permissions.has('ADMINISTRATOR')) {
       try {
         await interaction.deferReply()
         await interaction.editReply({ content: 'You don\'t have permissions!', ephemeral: true })
-      } catch (error) {
+      }
+      catch (error) {
         console.error(error)
       }
     } else {
@@ -37,8 +38,8 @@ module.exports = {
         .setDescription(rules.description)
         .setAuthor({
           name: user.displayName,
-          url: `https://discordapp.com/users/${ user.id }`,
-          iconURL: `https://cdn.discordapp.com/avatars/${ user.id }/${ interaction.user.avatar }.png`
+          url: `https://discordapp.com/users/${user.id}`,
+          iconURL: `https://cdn.discordapp.com/avatars/${user.id}/${interaction.user.avatar}.png`
         })
         .setThumbnail(rules.thumbnail)
         .addFields(rules.fields)
@@ -51,8 +52,9 @@ module.exports = {
 
       try {
         await interaction.deferReply()
-        await interaction.editReply({ embeds: [ embedMessage ], components: [ row ] })
-      } catch (error) {
+        await interaction.editReply({ embeds: [embedMessage], components: [row] })
+      }
+      catch (error) {
         console.error(error)
       }
     }

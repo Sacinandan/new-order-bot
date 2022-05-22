@@ -17,5 +17,6 @@
   "welcomeTitle": "welcome",
   "welcomeDescription": "Post welcome message",
   "respawnTitle": "respawn",
-  "respawnDescription": "Date and time of Raid Bosses respawn"
+  "respawnDescription": "Date and time of Raid Bosses respawn",
+  "mainChannel": "general"
 }

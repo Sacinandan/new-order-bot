@@ -37,7 +37,7 @@ for (const file of commandFiles) {
   commands.push(command.data.toJSON())
   discord.commands.set(command.data.name, command)
 }
-// es-lint-ignore
+
 const rest = new REST({ version: '9' }).setToken(process.env.TOKEN)
 
 ;(async () => {
@@ -51,10 +51,10 @@ const rest = new REST({ version: '9' }).setToken(process.env.TOKEN)
   }
 })()
 
-const DISCORD = () => {
+const Discord = () => {
   discord
     .login(process.env.TOKEN)
-    .catch(error => { throw error })
+    .catch(error => { throw Error(error.message) })
 }
 
-module.exports = DISCORD
+module.exports = Discord

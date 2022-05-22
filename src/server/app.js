@@ -24,7 +24,7 @@ app.get('/', (req, res) =>
 
 const API = () => {
   app.listen(port, () => {
-    console.log(`Web App is running on ${process.env.URL}`)
+    console.log(`Web server is running on ${process.env.URL}`)
   })
 }
 

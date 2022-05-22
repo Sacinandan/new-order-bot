@@ -9,29 +9,29 @@ const { getCalendarLinks } = require('../discord/utils/calendar')
 const title = process.env.TELEGRAM_BOT_TITLE
 const telegram = new TelegramBot(process.env.TELEGRAM_BOT_TOKEN, { polling: true })
 
-telegram.setMyCommands([
-  {
-    command: '/help',
-    description: 'Information about bot functionality'
-  },
-  {
-    command: config.respawnTitle,
-    description: config.respawnDescription
-  },
-  {
-    command: '/subscribe',
-    description: 'Subscribe for @everyone mentioning'
-  },
-  {
-    command: '/unsubscribe',
-    description: 'Unsubscribe from @everyone mentioning'
-  }
-])
-        .then(() => telegram.getMe()
-                            .then(res => console.log(`Telegram bot ${res.username} is running!`)))
-        .catch(err => { throw err})
+telegram
+  .setMyCommands([
+    {
+      command: '/help',
+      description: 'Information about bot functionality'
+    },
+    {
+      command: config.respawnTitle,
+      description: config.respawnDescription
+    },
+    {
+      command: '/subscribe',
+      description: 'Subscribe for @everyone mentioning'
+    },
+    {
+      command: '/unsubscribe',
+      description: 'Unsubscribe from @everyone mentioning'
+    }
+  ])
+  .then(() => telegram.getMe().then(res => console.log(`Telegram bot ${res.username} is running!`)))
+  .catch(err => { throw err})
 
-const TELEGRAM = () => {
+const Telegram = () => {
   telegram.on('message', async (msg) => {
     try {
       if (msg && msg.text && !msg.from.is_bot && msg.chat) {
@@ -145,4 +145,4 @@ const TELEGRAM = () => {
   })
 }
 
-module.exports = TELEGRAM
+module.exports = Telegram

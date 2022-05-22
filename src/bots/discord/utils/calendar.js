@@ -38,7 +38,7 @@ const setCalendarICS = (title, start, end) => {
     })
 }
 
-const CALENDAR = () => {
+const Calendar = () => {
   ;(async () => {
     const bosses = await getRaidBossesList()
 
@@ -56,5 +56,5 @@ const CALENDAR = () => {
 module.exports = {
   getCalendarLinks,
   setCalendarICS,
-  CALENDAR
+  Calendar
 }

@@ -1,6 +1,6 @@
 {
   "name": "new-order",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "description": "Discord bot for Lineage II community",
   "email": "sacinandankisor@gmail.com",
   "repository": "https://github.com/Sacinandan/new-order",
@@ -18,16 +18,16 @@
   "author": "Sacinandan Kisor das a.k.a. branikald",
   "license": "ISC",
   "dependencies": {
-    "@discordjs/rest": "^0.4.1",
-    "@prisma/client": "^3.13.0",
-    "calendar-link": "^2.1.1",
-    "discord.js": "^13.6.0",
-    "express": "^4.17.2",
-    "node-telegram-bot-api": "^0.57.0"
+    "@discordjs/rest": "0.4.1",
+    "@prisma/client": "3.14.0",
+    "calendar-link": "2.2.0",
+    "discord.js": "13.7.0",
+    "express": "4.18.1",
+    "node-telegram-bot-api": "0.57.0"
   },
   "devDependencies": {
-    "dotenv": "^16.0.0",
-    "nodemon": "^2.0.16",
-    "prisma": "^3.13.0"
+    "dotenv": "16.0.1",
+    "nodemon": "2.0.16",
+    "prisma": "3.14.0"
   }
 }
